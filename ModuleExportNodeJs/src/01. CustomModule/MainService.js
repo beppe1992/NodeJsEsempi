@@ -1,3 +1,3 @@
-var sm = require('./CustomSumModule.js');
+var sumModule = require('./CustomSumModule.js');
 
-console.log(sm.sum(1,2));
+console.log(sumModule.sum(1,2));

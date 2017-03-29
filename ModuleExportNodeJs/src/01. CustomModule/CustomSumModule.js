@@ -1,5 +1,3 @@
-var sum = function(a, b) { //definiamo la funzione sum
+exports.sum = function(a, b) { //definiamo la funzione sum, e la rendiamo pubblica
   return a+b;
 };
-
-exports.sum = sum; //esportiamo la funzione sum
