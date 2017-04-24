@@ -1,3 +1,4 @@
-var webSocketAngular = angular.module('webSocketAngular', ['webSocketAngular.controllers']);
+var exampleApp = angular.module('exampleApp', ['exampleApp.controllers','exampleApp.services']);
 
-angular.module('webSocketAngular.controllers', []);
+angular.module('exampleApp.controllers', []);
+angular.module('exampleApp.services', []);

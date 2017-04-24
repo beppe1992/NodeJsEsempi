@@ -1,0 +1,50 @@
+
+<html>
+<head>
+<title>Costrutti Base</title>
+
+<!-- INCLUDO LE LIBRERIE BASE DI ANGULAR -->
+<script src="/node_modules/angular/angular.min.js"></script>
+
+
+<!-- INCLUDO I SERVIZI E I CONTROLLER JAVASCRIPT -->
+<script type="text/javascript" src="/webapp/resources/js/app.js"></script>
+
+
+<script type="text/javascript"
+	src="/webapp/public/Example/ExampleController.js"></script>
+	
+<script type="text/javascript"
+	src="/webapp/public/Example/ExampleService.js"></script>
+	
+	
+<base href="http://localhost:8080/">
+
+</head>
+
+<body ng-app="exampleApp" ng-controller="ExampleController">
+
+	
+
+	<button ng-click="recuperaElementi()">Recupera tutti gli elementi</button>
+	
+	<br>
+	<br>
+	<br>
+	
+	{{elementi}}
+	
+	<br>
+	<br>
+	<br>
+	
+	<label>ID ELEMENTO</label><input ng-model="idElemento">
+	<button ng-click="recuperaElementoSingolo()">Recupera un singolo elemento</button>
+	
+	<br>
+	<br>
+	<br>
+	
+	{{elementiFiltered}}
+</body>
+</html>

@@ -10,3 +10,7 @@ exports.configureServer = function(){
 
 	express.listen(8080);
 }
+
+exports.configureEndpoint = function(url,expressRouter){
+	express.use(url, expressRouter);
+}

@@ -1,6 +1,6 @@
 # NodeJsEsempi
 Questo progetto racchiude alcuni esempi di applicazioni sviluppate con NodeJs descritti nei successivi paragrafi.<br>
-Per utilizzare ogni singolo progetto è necessario lanciare il comando npm init all'interno di ognuno.<br>
+Per utilizzare ogni singolo progetto è necessario lanciare il comando npm install all'interno di ognuno.<br>
 
 ## WebServerBaseNodeJs
 Questo progetto contiene alcuni esempi base di creazione di un webserver base con nodejs: <br>
@@ -17,4 +17,4 @@ Questo progetto contiene alcuni esempi base di servizi REST implementati con Hap
 	
 ## WebServerBaseExpressJs
 Questo progetto contiene un esempo base di creazione di un webserver con ExpressJs. Il webserver espone un'applicazione AngularJs<br>
-Lanciando il comando "src\main-app.js", e accedendo all'indirizzo http://localhost:8080/web e restituisce una pagina html base. Se viene richiamato un altro url il servizio restituisce una pagina di not found. Il servizio utilizza semplicemente il modulo nativo url per gestire l'url sul quale rimanere in ascolto. Per far partire il server è necessario lanciare il comando node ReadFileService.js posizionandosi nella cartella dove è presente il file
+Lanciando il comando "node src\main-app.js", e accedendo all'indirizzo http://localhost:8080/webapp/public/Example/Index.html e restituisce una pagina html base.
